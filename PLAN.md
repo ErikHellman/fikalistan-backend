@@ -101,7 +101,7 @@ Skapa `package.json` (ESM), installera Express, React, Vite och `@vitejs/plugin-
 
 **Klart när:** `npm run dev` visar sidan på http://localhost:3000, `npm run build && npm start` visar samma sida från `dist/`, och `curl localhost:3000/api/nagot` ger 404 med JSON.
 
-### - [ ] Steg 2 – Databas och migration
+### - [x] Steg 2 – Databas och migration
 
 Länka Supabase-projektet (`supabase link`, referens-id frågas av användaren), skriv migrationen för `fikaposter` med RLS, och kör `supabase db push`. Användaren lägger själv in `SUPABASE_URL` och `SUPABASE_SECRET_KEY` i `.env`.
 
