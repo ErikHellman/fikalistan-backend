@@ -95,7 +95,7 @@ Exempel på post i svar:
 
 Varje steg görs i en egen session, på en egen branch, och blir en egen pull request. Bocka av steget här när PR:en är öppnad.
 
-### - [ ] Steg 1 – Projektgrund
+### - [x] Steg 1 – Projektgrund
 
 Skapa `package.json` (ESM), installera Express, React, Vite och `@vitejs/plugin-react`. Gör en Express-server med Vite i middleware-läge i utveckling och `dist/` i produktion, en minimal React-sida ("Fikalistan"), `.env.example`, och skripten `dev`, `build`, `start`, `test`. Okända `/api`-adresser svarar med 404 och JSON.
 
